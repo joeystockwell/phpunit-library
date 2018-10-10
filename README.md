@@ -29,6 +29,16 @@ The code is located in `public`
 
 To learn PHPUnit principles and keep a history of personal examples. Feel free to create a branch and create your own.
 
+## Connecting to MySQL
+
+The version of MySQL bundles is `5.7`
+
+- Host: `127.0.0.1` (or `localhost`)
+- Port: `8082`
+- Database: `app`
+
+User credentials can be found in the `docker-compose.yml`
+
 ## Resources
 
 - https://phpunit.de/getting-started/phpunit-7.html
