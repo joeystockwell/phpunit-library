@@ -9,7 +9,7 @@ services:
       container_name: joey-memcached
 
     mysql:
-      image: mysql:8.0
+      image: mysql:5.7
       container_name: joey-mysql
       working_dir: /application
       volumes:
