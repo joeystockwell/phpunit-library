@@ -1,11 +1,29 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f05fd739d9cec28f5b9468a9cca8fba",
-    "packages": [],
+    "content-hash": "95898bf7b644c381bd00bc6d8ec93543",
+    "packages": [
+        {
+            "name": "joeystockwell/phpunit-library-basic",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/joeystockwell/phpunit-library-basic",
+                "reference": "ccd7bd05a13046cd3810376b7336b8cd662f8360"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "description": "Composer Package for basic examples to be used with https://github.com/joeystockwell/phpunit-library.",
+            "time": "2018-10-13T13:33:09+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
@@ -1418,7 +1436,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "joeystockwell/phpunit-library-basic": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
