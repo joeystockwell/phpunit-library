@@ -1,5 +1,11 @@
 {
     "name": "joeystockwell/phpunit-library",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/joeystockwell/phpunit-library-basic"
+        }
+    ],
     "autoload": {
         "classmap": [
             "src/"
